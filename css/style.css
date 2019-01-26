@@ -1,3 +1,8 @@
 .bg-primary {
     background-color: #1c2c58 !important;
 }
+
+.modal-border {
+    border: 2px solid #5c3d46;
+    height: 252px;
+}

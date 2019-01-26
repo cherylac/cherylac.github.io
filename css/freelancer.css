@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Lato';
+  font-family: 'Montserrat';
 }
 
 h1,
@@ -15,7 +15,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Montserrat';
 }
 
 hr.star-light,
@@ -184,7 +184,7 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'Lato';
+  font-family: 'Montserrat';
 }
 
 @media (min-width: 992px) {
