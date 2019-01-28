@@ -1,29 +1,28 @@
 .bg-primary {
-    background-image: linear-gradient(to right, rgb(22, 22, 61), grey ) !important;
+    background-image: linear-gradient(to right, rgb(103, 154, 173), rgb(88, 118, 153) ) !important;
 }
 
 .modal-border {
-    border: 1px solid #5c3d46;
+    border: 1px solid black;
     height: 250px;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: rgb(125, 54, 206) !important;
+    color: rgb(69, 101, 189) !important;
   }
 
   .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #9073e9 !important;
+    background: #5d8a8d !important;
 }
 
 .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #9073e9;
+    background: #150938;
 }
 
 hr.star-light:after {
     color: #fff;
-    background-color: #9073e9 !important;
   }
 
   
