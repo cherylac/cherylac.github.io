@@ -5,17 +5,19 @@
  */
 
 body {
-  font-family: 'Montserrat';
+  font-family:'Montserrat', serif;
 }
 
-h1,
+h1 {
+  font-family: 'Montserrat', serif;
+}
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-weight: 600;
-  font-family: 'Montserrat';
+  font-family: '
 }
 
 hr.star-light,
@@ -49,11 +51,11 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-image: src="img/treebackground.png";
 }
 
 hr.star-dark {
-  border-color: #2C3E50;
+  border-color: #7d7d997d;
 }
 
 hr.star-dark:after {
@@ -352,7 +354,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #2d2d44d8 !important;
 }
 
 .text-primary {
