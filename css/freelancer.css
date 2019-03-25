@@ -51,7 +51,6 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-image: src="img/treebackground.png";
 }
 
 hr.star-dark {
@@ -329,12 +328,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
-  color: #fff;
+  background-color: #fff;
+  color: rgb(48, 37, 99);
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #456ddb;
 }
 
 a {
@@ -350,11 +349,11 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: rgb(230, 82, 102) !important;
 }
 
 .bg-secondary {
-  background-color: #acc49ba4 !important;
+  background-color: #b6232ba4 !important;
 }
 
 .text-primary {
@@ -371,8 +370,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #852fbe;
+  border-color: #852fbe;
 }
 
 .btn-secondary {
