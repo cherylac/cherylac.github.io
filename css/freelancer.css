@@ -10,6 +10,7 @@ body {
 
 h1 {
   font-family: 'Montserrat', serif;
+  color: rgb(19, 65, 66)
 }
 h2,
 h3,
@@ -17,50 +18,18 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  font-family: '
+  font-family:'Montserrat';
+  color: rgb(19, 65, 66); 
 }
 
-hr.star-light,
-hr.star-dark {
-  max-width: 15rem;
-  padding: 0;
-  text-align: center;
-  border: none;
-  border-top: solid 0.25rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-hr.star-light:after,
-hr.star-dark:after {
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f005';
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 2em;
-}
 
-hr.star-light {
-  border-color: #fff;
-}
 
-hr.star-light:after {
-  color: #fff;
-}
 
-hr.star-dark {
-  border-color: #7d7d997d;
-}
 
-hr.star-dark:after {
-  color: #2C3E50;
-  background-color: white;
-}
+
+
+
 
 section {
   padding: 6rem 0;
@@ -88,6 +57,7 @@ section h2 {
   height: 3.25rem;
   font-size: 1.25rem;
   line-height: 2rem;
+  color: rgb(19, 65, 66);
 }
 
 .scroll-to-top {
@@ -121,11 +91,11 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: rgb( 255, 124, 110);
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: rgb (255, 124, 110);
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -133,7 +103,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: rgb(255, 124, 110);
 }
 
 #mainNav .navbar-toggler {
@@ -217,7 +187,7 @@ header.masthead h2 {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: #5d8a8d;
+  background-color: rgb(119, 171, 180);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -329,15 +299,15 @@ form .row:first-child .floating-label-form-group {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #fff;
-  color: rgb(48, 37, 99);
+  color: rgb(20, 54, 54);
 }
 
 .copyright {
-  background-color: #456ddb;
+  background-color: rgb(173, 181, 184);
 }
 
 a {
-  color: #18BC9C;
+  color: rgb(62, 100, 93);
 }
 
 a:focus, a:hover, a:active {
@@ -349,34 +319,34 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: rgb(230, 82, 102) !important;
+  background-color: rgb(255, 251, 252) !important;
 }
 
 .bg-secondary {
-  background-color: #b6232ba4 !important;
+  background-color: #fff !important;
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: rgb(119, 171, 180)!important;
 }
 
 .text-secondary {
-  color: #2C3E50 !important;
+  color: rgb(19, 65, 66) !important;
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: rgb(119, 171, 180);
+  border-color: rgb(119, 171, 180);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #852fbe;
-  border-color: #852fbe;
+  background-color: rgb(86, 228, 197);
+  border-color: rgb(86, 228, 197);
 }
 
 .btn-secondary {
-  background-color: rgb(77, 116, 155);
-  border-color: #2C3E50;
+  background-color: rgb(119, 171, 180);
+  border-color: rgb(77, 116, 155);
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {

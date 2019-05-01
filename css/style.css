@@ -1,5 +1,5 @@
 .bg-primary {
-    background-image: linear-gradient(to right, rgb(196, 224, 247), rgb(69, 101, 189) ) !important;
+    background-color: #fff !important;
 }
 
 .modal-border {
@@ -8,21 +8,12 @@
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: rgb(69, 101, 189) !important;
+    color: rgb(124, 127, 128);
   }
 
   .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #5d8a8d !important;
+    color: rgb(255, 124, 110);
+    background: rgb(124, 127, 128) !important;
 }
 
-.navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #150938;
-}
 
-hr.star-light:after {
-    color: #fff;
-  }
-
-  
