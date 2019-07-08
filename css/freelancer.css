@@ -319,7 +319,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: rgb(255, 251, 252) !important;
+  background-color: rgb(255, 251, 252);
 }
 
 .bg-secondary {

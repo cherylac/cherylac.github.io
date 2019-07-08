@@ -1,5 +1,5 @@
 .bg-primary {
-    background-color: #fff !important;
+    background-color: white !important;
 }
 
 .modal-border {
@@ -22,11 +22,18 @@
     display: inline-block;
 }
 
+header {
+    background-image: url("img/portfolio/trees/jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
 
 .profile-pic {
     height: 200px;
 }
-
 
 
 
